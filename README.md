@@ -7,7 +7,7 @@ multiOTP Credential Provider for multiOTP is a free and open source implementati
 (c) 2015-2016 ArcadeJust ("RDP only" enhancement)  
 (c) 2013-2015 Last Squirrel IT  
 
-Current build: 5.10.1.2 (2026-01-05)  
+Current build: 5.10.2.2 (2026-04-03)  
 
 The binary download page is available here : https://download.multiotp.net/credential-provider/ (download link are at the bottom of the page)
 
@@ -16,7 +16,8 @@ The binary download page is available here : https://download.multiotp.net/crede
 
 Visit http://forum.multiotp.net/ for additional support.
 
-multiOTP Credential Provider for multiOTP supporting Windows 7/8/8.1/10/2012(R2)/2016/2019/2022
+
+multiOTP Credential Provider for multiOTP supporting Windows 7/8/8.1/10/11/2012(R2)/2016/2019/2022/2025
 - support MSI deployement with MST transform file
 - supports both local and domain users
 - forced OTP check for RDP
@@ -190,6 +191,9 @@ Report if you have any problems or questions regarding this app.
 CHANGE LOG OF RELEASED VERSIONS
 ===============================
 ```
+2026-04-03 5.10.2.2 ENH: Embedded Windows PHP edition updated to version 8.5.4
+2026-03-23 5.10.2.1 ENH: Embedded Windows PHP edition updated to version 8.4.16
+                    ENH: WMIC dependencies has been removed and replaced by Powershell commands
 2026-01-05 5.10.1.2 FIX: When credential provider is only used in local and authentication is made through remote desktop, do not ask for the password a second time
                     ENH: Registry key multiOTPDisplayUserLocked used to display message User locked or User delayed before OTP is asked
 2025-11-04 5.10.0.3 ENH: Embedded Windows PHP edition updated to version 8.4.14
